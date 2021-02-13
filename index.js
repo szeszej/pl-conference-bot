@@ -41,6 +41,7 @@ const sequence = (answers, msg) => {
 }
 
 //Implement a Command Handler? https://www.sitepoint.com/discord-bot-node-js/
+//https://discordjs.guide/
 
 bot.on('message', (msg) => {
   if (
