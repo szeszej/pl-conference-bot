@@ -71,25 +71,6 @@ bot.on('message', (msg) => {
         }
       })
       .catch((error) => console.log('coś się jebło szeszej'))
-  } else if (msg.content.includes('!wiedza')) {
-    msg.channel
-      .send(questions[20].question)
-      .then((msg) => {
-        msg.react('👍')
-        msg.react('👎')
-      })
-      .catch((error) => console.log('coś się jebło szeszej'))
-  } else if (msg.content.includes('!ocena')) {
-    msg.channel
-      .send(questions[21].question)
-      .then((msg) => {
-        msg.react('1️⃣')
-        msg.react('2️⃣')
-        msg.react('3️⃣')
-        msg.react('4️⃣')
-        msg.react('5️⃣')
-      })
-      .catch((error) => console.log('coś się jebło szeszej'))
   } else if (
     msg.content.includes('!link' && msg.author.id === '234760750583775242')
   ) {
@@ -98,16 +79,26 @@ bot.on('message', (msg) => {
         'Link do egzaminu z DMTR: https://judgeacademy.com/courses/mtg-digital-magic-tournament-rules/',
       )
       .catch((error) => console.log('coś się jebło szeszej'))
-  } else if (msg.content.includes('!konfa')) {
+  } else if (msg.content === '!spis 1') {
     msg.channel
-      .send('Jak oceniacie dzisiejszą konferencję?')
-      .then((msg) => {
-        msg.react('1️⃣')
-        msg.react('2️⃣')
-        msg.react('3️⃣')
-        msg.react('4️⃣')
-        msg.react('5️⃣')
-      })
+      .send(
+        'Zapraszamy do wypełnienia formularza: https://forms.gle/Y7VnphSbyf38cru77 Jest on wymagany, aby potwierdzić Waszą obecność na niniejszej konferencji!',
+      )
+      .then((msg) => {})
+      .catch((error) => console.log('coś się jebło szeszej'))
+  } else if (msg.content === '!spis 2') {
+    msg.channel
+      .send(
+        'Zapraszamy do wypełnienia formularza: https://forms.gle/MJQURsCzNLxd976GA Jest on wymagany, aby potwierdzić Waszą obecność na niniejszej konferencji!',
+      )
+      .then((msg) => {})
+      .catch((error) => console.log('coś się jebło szeszej'))
+  } else if (msg.content === '!feedback') {
+    msg.channel
+      .send(
+        'Zapraszamy do wypełnienia formularza z feedbackiem dotyczącym prezentacji: https://forms.gle/VouruMCFv2PfdHqr5',
+      )
+      .then((msg) => {})
       .catch((error) => console.log('coś się jebło szeszej'))
   }
 })
