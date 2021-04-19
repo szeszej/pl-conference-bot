@@ -1,5 +1,5 @@
 require('dotenv').config()
-const questions = require('./questions')
+const questions = require('./questions-dipg')
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
@@ -76,7 +76,8 @@ bot.on('message', (msg) => {
   ) {
     msg.channel
       .send(
-        'Link do egzaminu z DMTR: https://judgeacademy.com/courses/mtg-digital-magic-tournament-rules/',
+        // 'Link do egzaminu z DMTR: https://judgeacademy.com/courses/mtg-digital-magic-tournament-rules/',
+        'Link do egzaminu z DIPG: https://judgeacademy.com/courses/mtg-digital-infraction-procedure-guide/',
       )
       .catch((error) => console.log('coś się jebło szeszej'))
   } else if (msg.content === '!spis 1') {
