@@ -20,11 +20,12 @@ const questions = [
       "Hidden Card Error",
       "Mulligan Procedure Error",
       "Game Rule Violation",
-      "Failure to Maintain Game State,
+      "Failure to Maintain Game State",
     ],
   },
   {
-    question: "W zwykłym IPG, Tournament Errors to błędy, które gracze mogą popełnić poza samą grą, np. spóźnić się na początek rundy lub mieć złą decklistę. Tournament Errors możemy przyznawać według DIPG?",
+    question:
+      "W zwykłym IPG, Tournament Errors to błędy, które gracze mogą popełnić poza samą grą, np. spóźnić się na początek rundy lub mieć złą decklistę. Tournament Errors możemy przyznawać według DIPG?",
     type: "multipleYesno",
     answers: [
       "Tardiness",
@@ -37,7 +38,8 @@ const questions = [
     ],
   },
   {
-    question: "W zwykłym IPG głównym powodem przyznania karty kary Tardiness (spóźnialstwo) jest nie bycie na swoim miejscu w momencie rozpoczęcie rundy. Jaka jest główny powód przyznania karty za to przewinienie podczas turniejów cyfrowych?",
+    question:
+      "W zwykłym IPG głównym powodem przyznania karty kary Tardiness (spóźnialstwo) jest nie bycie na swoim miejscu w momencie rozpoczęcie rundy. Jaka jest główny powód przyznania karty za to przewinienie podczas turniejów cyfrowych?",
     type: "multiple",
     answers: [
       "W momencie startu rundy gracz nie rozpoczął jeszcze meczu",
@@ -47,7 +49,8 @@ const questions = [
     ],
   },
   {
-    question: "Tournament Error: Outside Assistance (pomoc z zewnątrz) w zwykłym IPG to przewinienie polegające na próbie uzyskania private information lub porad dotyczących swojego meczu (albo dawanie komuś private information lub porad dotyczących ich meczu). Czy według DIPG graczowi, który ogląda stream swojego przeciwnika należy się TE:OA?",
+    question:
+      "Tournament Error: Outside Assistance (pomoc z zewnątrz) w zwykłym IPG to przewinienie polegające na próbie uzyskania private information lub porad dotyczących swojego meczu (albo dawanie komuś private information lub porad dotyczących ich meczu). Czy według DIPG graczowi, który ogląda stream swojego przeciwnika należy się TE:OA?",
     type: "yesno",
   },
   {
@@ -91,25 +94,16 @@ const questions = [
     question:
       "Jeśli turniej nie używa zegara Arenowego, ile maksymalnie czasu można przeznaczyć na sideboardowanie, aby nie otrzymać kary Tournament Error: Slow Play?",
     type: "multiple",
-    answers: [
-      "1 minutę",
-      "3 minuty",
-      "5 minut",
-      "nie ma limitu",
-    ],
+    answers: ["1 minutę", "3 minuty", "5 minut", "nie ma limitu"],
   },
   {
     question: "Według DIPG, jaka jest kara za TE: Decks Problems?",
     type: "multiple",
-    answers: [
-      "Warning",
-      "Game Loss",
-      "Match Loss",
-      "Disqualification",
-    ],
+    answers: ["Warning", "Game Loss", "Match Loss", "Disqualification"],
   },
   {
-    question: "Czy jeśli decklista jest nielegalna, zmieniamy ją w ten sposób, aby pasowała do decku?",
+    question:
+      "Czy jeśli decklista jest nielegalna, zmieniamy ją w ten sposób, aby pasowała do decku?",
     type: "yesno",
   },
   {
@@ -118,7 +112,8 @@ const questions = [
     type: "yesno",
   },
   {
-    question: "Co dzieje się, jeśli gracz nie ma na Arenie kart, które wpisał do decklisty?",
+    question:
+      "Co dzieje się, jeśli gracz nie ma na Arenie kart, które wpisał do decklisty?",
     type: "multiple",
     answers: [
       "Zostaje zdyskwalifikowany",
@@ -133,7 +128,8 @@ const questions = [
     type: "yesno",
   },
   {
-    question: "Tournament Error: Disconnect (rozłączenie) nie istnieje w papierowym IPG. W jakich sytuacjach należy przyznać tę karę według DIPG?",
+    question:
+      "Tournament Error: Disconnect (rozłączenie) nie istnieje w papierowym IPG. W jakich sytuacjach należy przyznać tę karę według DIPG?",
     type: "multiple",
     answers: [
       "Gracz zostaje rozłączny z grą",
@@ -145,12 +141,7 @@ const questions = [
   {
     question: "Według DIPG, jaka jest kara za TE: Disconnect?",
     type: "multiple",
-    answers: [
-      "Warning",
-      "Game Loss",
-      "Match Loss",
-      "Disqualification",
-    ],
+    answers: ["Warning", "Game Loss", "Match Loss", "Disqualification"],
   },
   {
     question:
@@ -172,12 +163,7 @@ const questions = [
     question:
       "Przez jaki maksymalnie czas gracz może być rozłączony zanim kara nie zostanie zwiększona do Match Lossa?",
     type: "multiple",
-    answers: [
-      "5 minut",
-      "10 minut",
-      "15 minut",
-      "nie ma limitu",
-    ],
+    answers: ["5 minut", "10 minut", "15 minut", "nie ma limitu"],
   },
   {
     question:
