@@ -1,5 +1,5 @@
 require('dotenv').config()
-const questions = require('./questions-dipg')
+const questions = require('./questions-2hg')
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
