@@ -40,7 +40,7 @@ const questions = [
   },
   {
     question:
-      "Alberta begins their main phase with !card Sorin, Lord of Innistrad! and !card Grizzly Bear! on the battlefield. Their teammate, Alex, controls !card Forest Bear!. When Alberta activates the second ability of Sorin, what will be the stats of each of the bears?",
+      "Alberta begins their main phase with Sorin, Lord of Innistrad and Grizzly Bear on the battlefield. Their teammate, Alex, controls Forest Bear. When Alberta activates the second ability of Sorin, what will be the stats of each of the bears?",
     type: "multiple",
     answers: [
       "Both will be 2/2s",
@@ -51,7 +51,7 @@ const questions = [
   },
   {
     question:
-      "Adelaida and Abigail each have !card Ajani’s Pridemate! in play. Adelaida casts !card Vampiric Touch! targeting one of the opponents. After Vampiric Touch resolves and the stack is empty, how many counters will be on each Pridemate?",
+      "Adelaida and Abigail each have Ajani’s Pridemate in play. Adelaida casts Vampiric Touch targeting one of the opponents. After Vampiric Touch resolves and the stack is empty, how many counters will be on each Pridemate?",
     type: "multiple",
     answers: [
       "Both will have 1 counter",
@@ -62,7 +62,7 @@ const questions = [
   },
   {
     question:
-      "Armagerd and Armin are at 30 life and are playing against Noscope and Nitro, also at 30 life. Armin controls a 1/1 Vampire token and casts !card Arterial Flow!. Assuming that Noscope and Nitro previously had 2 cards in hand each, what happens after the Flow resolves?",
+      "Armagerd and Armin are at 30 life and are playing against Noscope and Nitro, also at 30 life. Armin controls a 1/1 Vampire token and casts Arterial Flow. Assuming that Noscope and Nitro previously had 2 cards in hand each, what happens after the Flow resolves?",
     type: "multiple",
     answers: [
       "The active team will be at 32 life, the non-active team will be at 28 and neither of its members will have any cards in their hands",
@@ -73,7 +73,7 @@ const questions = [
   },
   {
     question:
-      "Anna on the left and Arven on the right are sitting opposite, respectively, Nolan and Nadina. Arven wants to attack with their !card Abyssal Specter!. Assuming there are no blocks or removal spells, how can they make sure that Nolan discards a card with the trigger of the Specter?",
+      "Anna on the left and Arven on the right are sitting opposite, respectively, Nolan and Nadina. Arven wants to attack with their Abyssal Specter. Assuming there are no blocks or removal spells, how can they make sure that Nolan discards a card with the trigger of the Specter?",
     type: "multiple",
     answers: [
       "Arven needs to declare the Specter as attacking Nolan",
@@ -84,7 +84,7 @@ const questions = [
   },
   {
     question:
-      "Anna on the left and Arven on the right are sitting opposite, respectively, Nolan and Nadina. Arven attacks with their !card Abyssal Specter! saying nothing. There are no blocks. What happens in the combat damage step?",
+      "Anna on the left and Arven on the right are sitting opposite, respectively, Nolan and Nadina. Arven attacks with their Abyssal Specter saying nothing. There are no blocks. What happens in the combat damage step?",
     type: "multiple",
     answers: [
       "Both Nolan and Nadina discard a card",
@@ -95,7 +95,7 @@ const questions = [
   },
   {
     question:
-      "Alokar, Anastasia’s teammate, has a !card Grizzly Bear! on the battlefield. Nathalia, Nelly’s teammate, controls !card Ghostly Prison!. The active team declares Grizzly Bear as the attacker with Alokar saying “I attack Nelly”. What happens?",
+      "Alokar, Anastasia’s teammate, has a Grizzly Bear on the battlefield. Nathalia, Nelly’s teammate, controls Ghostly Prison. The active team declares Grizzly Bear as the attacker with Alokar saying “I attack Nelly”. What happens?",
     type: "multiple",
     answers: [
       "Alokar may attack with the Bear as normal",
@@ -106,7 +106,7 @@ const questions = [
   },
   {
     question:
-      "Aran declares !card Bane of Bala Ged! as attacking Noddy, Notty’s teammate. What happens when Bane’s triggered ability resolves?",
+      "Aran declares Bane of Bala Ged as attacking Noddy, Notty’s teammate. What happens when Bane’s triggered ability resolves?",
     type: "multiple",
     answers: [
       "Both Noddy and Notty have to exile two permanents",
@@ -116,24 +116,24 @@ const questions = [
   },
   {
     question:
-      "Once the Bane attacks Noddy, Notty wants to help his teammate by blocking it with !card Grizzly Bear!. Are they allowed to block creatures attacking their teammate?",
+      "Once the Bane attacks Noddy, Notty wants to help his teammate by blocking it with Grizzly Bear. Are they allowed to block creatures attacking their teammate?",
     type: "yesno",
   },
   {
     question:
-      "Alan begins their upkeep controlling !card Verdant Force!. How many Saprolings will be created with its triggered ability this upkeep?",
+      "Alan begins their upkeep controlling Verdant Force. How many Saprolings will be created with its triggered ability this upkeep?",
     type: "multiple",
     answers: [1, 2, 3, 4],
   },
   {
     question:
-      "Alan begins their upkeep controlling !card Barbed Wire!. Assuming nothing else happens in this upkeep, how much damage will be dealt to Alan’s team this step?",
+      "Alan begins their upkeep controlling Barbed Wire. Assuming nothing else happens in this upkeep, how much damage will be dealt to Alan’s team this step?",
     type: "multiple",
     answers: [1, 2, 3, 4],
   },
   {
     question:
-      "Alice, Alonse’s teammate, casts !card Time Warp! targeting themselves, then the team finishes their turn. What happens?",
+      "Alice, Alonse’s teammate, casts Time Warp targeting themselves, then the team finishes their turn. What happens?",
     type: "multiple",
     answers: [
       "The other team gets to do their turn since extra turns don’t work in 2HG",
@@ -144,7 +144,7 @@ const questions = [
   },
   {
     question:
-      "Arsen controls !card Sorin Markov! and targets Nobby with the second ability. Nobby’s team is at 20 life. What happens?",
+      "Arsen controls Sorin Markov and targets Nobby with the second ability. Nobby’s team is at 20 life. What happens?",
     type: "multiple",
     answers: [
       "Nobby’s team’s lifetotal becomes 10",
@@ -154,7 +154,7 @@ const questions = [
   },
   {
     question:
-      "Arnold activates !card Door to Nothingness! targeting Nelly. What happens when the ability resolves?",
+      "Arnold activates Door to Nothingness targeting Nelly. What happens when the ability resolves?",
     type: "multiple",
     answers: [
       "Nelly loses the game, their teammate can continue playing as normal",
@@ -164,7 +164,7 @@ const questions = [
   },
   {
     question:
-      "Arney and Al attack Nina and Nobby with !card Glistener Elf!. Nina and Nobby already have 9 poison counters on them. There are no blocks. What happens in the combat damage step?",
+      "Arney and Al attack Nina and Nobby with Glistener Elf. Nina and Nobby already have 9 poison counters on them. There are no blocks. What happens in the combat damage step?",
     type: "multiple",
     answers: [
       "Nina and Nobby lose the game due to having 10 poison counters",

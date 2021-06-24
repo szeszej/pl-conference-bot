@@ -97,7 +97,14 @@ bot.on("message", (msg) => {
         Teams have shared turns (each player on the team has upkeep at the same time, etc.).`
       )
       .catch((error) => console.log("coś się jebło szeszej"));
+  } else if (
+    msg.content.includes("!link") &&
+    msg.author.id === "234760750583775242"
+  ) {
+    msg.channel
+      .send(
+        `https://blogs.magicjudges.org/2hg/faq/`
+      )
+      .catch((error) => console.log("coś się jebło szeszej"));
   }
 });
-
-//https://blogs.magicjudges.org/2hg/faq/
