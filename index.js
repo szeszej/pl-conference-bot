@@ -1,5 +1,5 @@
 require('dotenv').config()
-const questions = require('./questions-2hg-pl')
+const questions = require('./event-link')
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
@@ -56,8 +56,8 @@ const sequence = (answers, msg) => {
 
 bot.on('message', (msg) => {
   if (
-    msg.content.includes('!pytanie') &&
-    msg.author.id === '234760750583775242'
+    msg.content.includes('!pytanie')
+    // && msg.author.id === '234760750583775242'
   ) {
     const questionNumber = parseInt(msg.content.replace('!pytanie ', ''))
     const question = questions[questionNumber - 1]
@@ -90,11 +90,12 @@ bot.on('message', (msg) => {
   ) {
     msg.channel
       .send(
-        `First a small reminder on the basic differences between 2HG and 1v1:
+        `Najpierw przypomnijmy sobie podstawowe różnice między :two: :no_mouth: Giant and 1v1:
 
-        There are :two: teams :two: players each
-        Each team has a shared lifetotal that starts at :three: :zero:
-        Teams have shared turns (each player on the team has upkeep at the same time, etc.).`,
+        W grze biorą udział :two: drużyny po :two: graczy
+        Każda drużyna ma wspólne życie, a jego startowa ilość to :three: :zero:
+        Drużyny mają wspólne tury (każdy członek drużyny ma upkeep w tym samym czasie, itd.).
+        `,
       )
       .catch((error) => console.log('coś się jebło szeszej'))
   } else if (
@@ -103,6 +104,20 @@ bot.on('message', (msg) => {
   ) {
     msg.channel
       .send(`https://blogs.magicjudges.org/2hg/faq/`)
+      .catch((error) => console.log('coś się jebło szeszej'))
+  } else if (
+    msg.content.includes('!feedback') &&
+    msg.author.id === '234760750583775242'
+  ) {
+    msg.channel
+      .send(`https://forms.gle/PoQsrbKEhYvGetb77`)
+      .catch((error) => console.log('coś się jebło szeszej'))
+  } else if (
+    msg.content.includes('!attendance') &&
+    msg.author.id === '234760750583775242'
+  ) {
+    msg.channel
+      .send(`https://forms.gle/FAxUrYqK6LKG5JAS8`)
       .catch((error) => console.log('coś się jebło szeszej'))
   }
 })
