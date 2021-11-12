@@ -1,5 +1,5 @@
 require('dotenv').config()
-const questions = require('./event-link')
+const questions = require('./questions-multi')
 const Discord = require('discord.js')
 const bot = new Discord.Client()
 
